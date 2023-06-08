@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- INTERNAL CSS -->
+  <style>
+    h1 {
+      color: green;
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    h2 {
+      color: dodgerblue;
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+  <body>
+    <h1
+      style="
+        color: red;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      This heading has inline css
+    </h1>
+    <h2
+      style="
+        color: blue;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      This heading has inline css
+    </h2>
+
+    <!-- Internal CSS -->
+    <h1>This heading has internal css</h1>
+    <h2>This heading has internal css</h2>
+    <!-- external css -->
+    <h1 class="heading1">
+      This heading has external css and is seleted using class selector .
+    </h1>
+    <h2 id="heading2">
+      This heading has external css and is seleted using id selector #
+    </h2>
+    <div class="border-box">
+      This is box model having box-sizing:border-box width 300px height 300px
+      margin 2rem padding 2rem border 2rem
+    </div>
+    <div class="content-box">
+      This is box model having box-sizing:content-box width 300px height 300px
+      margin 2rem padding 2rem border 2rem
+    </div>
+  </body>
+</html>

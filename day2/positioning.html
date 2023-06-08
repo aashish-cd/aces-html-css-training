@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+  </head>
+  <body>
+    <h1 style="background-color: aquamarine">Static or default positioning</h1>
+    <h1
+      style="
+        position: relative;
+        left: 90px;
+        top: 30px;
+        width: 1000px;
+        background-color: aquamarine;
+      "
+    >
+      Relative position 90px from left, 30px from top
+    </h1>
+    <h1
+      style="
+        position: fixed;
+        bottom: 30px;
+        right: 90px;
+        background-color: aquamarine;
+      "
+    >
+      Fixed position
+    </h1>
+    <h1
+      style="
+        position: sticky;
+        top: 0;
+        text-align: center;
+        background-color: aquamarine;
+        z-index: 1;
+      "
+    >
+      sticky position
+    </h1>
+    <div
+      style="position: relative; background-color: yellowgreen; height: 500px"
+    >
+      <h1 style="position: absolute; right: 0">absolute position</h1>
+      <p style="position: absolute; bottom: 0">
+        For absolute positioninng, it changes its position based on its first
+        parent with relative positioning, if none of its parent has relative
+        position, whole body is taken for reference
+      </p>
+    </div>
+
+    <h1>Units</h1>
+    <h2 style="font-size: 20px">this is 20 px</h2>
+    <h2 style="font-size: 2em">this is 2 em</h2>
+    <h2 style="font-size: 2rem">this is 2 rem</h2>
+
+    <h2 style="background-color: green; font-size: 30px; height: 50vh">
+      this is 50 vh height
+    </h2>
+
+    <h2 style="background-color: green; font-size: 30px; width: 80vw">
+      this is 80 vw width
+    </h2>
+    <h2 style="background-color: green; font-size: 30px; width: 80%">
+      this is 80% width
+    </h2>
+
+    <div style="height: 90vh"></div>
+    <div style="height: 90vh"></div>
+  </body>
+</html>
