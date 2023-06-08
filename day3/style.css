@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flex > div {
+  width: 300px;
+  height: 300px;
+  background-color: #f00;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.flex button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #f00;
+  font-weight: bold;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  /* There are plenty of options for arranging items wherever we want in grid. As a beginner focus and completely understand flex. Then learn about grid, it will be difficult to directly learn about grids. */
+}
+.grid > div {
+  background-color: #324;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  /* There are plenty of options for arranging items wherever we want in grid. As a beginner focus and completely understand flex. Then learn about grid, it will be difficult to directly learn about grids. */
+}
+.grid button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #324;
+  font-weight: bold;
+  cursor: pointer;
+}
