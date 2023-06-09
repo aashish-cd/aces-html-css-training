@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- navbar-start -->
+    <nav
+      class="navbar navbar-expand-lg bg-success text-white sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Aces</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav_bar"
+          area-controls="nav_bar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-end"
+          id="nav_bar"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#social" class="nav-link">Social Media</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar-end -->
+    <!-- <nav>
+      <div class="leftsection">
+        <h1>aashish-cd</h1>
+      </div>
+      <div class="rightsection">
+        <h3>Home</h3>
+        <h3>Services</h3>
+        <h3>Contact</h3>
+      </div>
+    </nav> -->
+
+    <!-- intro section -->
+    <div class="intro-holder">
+      <div class="intro-left">
+        <h1>Hello,</h1>
+        <h2>I am Aashish Bhatt</h2>
+        <p>I am a fronend web developer</p>
+      </div>
+      <div class="intro-right">
+        <div class="image-holder">
+          <img src="image/img1.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- service section -->
+    <div id="services" class="service-holder">
+      <div class="service1">
+        <div class="icon">
+          <img src="image/img2.png" alt="icon" height="50px" width="50px" />
+        </div>
+        <div class="service-title">
+          <h1>Website Devlopment</h1>
+        </div>
+        <div class="service-detail">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            dignissimos distinctio doloremque mollitia dolore assumenda
+            accusantium necessitatibus ipsum animi nobis odit, omnis a nesciunt
+            reprehenderit numquam repellat fuga cum molestias.
+          </p>
+        </div>
+      </div>
+      <div class="service2">
+        <div class="icon">
+          <img src="image/img3.png" alt="icon" height="50px" width="50px" />
+        </div>
+        <div class="service-title">
+          <h1>Web Design</h1>
+        </div>
+        <div class="service-detail">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            repellat neque et ipsam error, enim laborum magni! Laborum atque
+            impedit totam nulla ut asperiores enim voluptatibus, est deleniti
+            sint nisi.
+          </p>
+        </div>
+      </div>
+      <div class="service3">
+        <div class="icon">
+          <img src="image/img6.png" alt="icon" height="50px" width="50px" />
+        </div>
+        <div class="service-title">
+          <h1>SEO</h1>
+        </div>
+        <div class="service-detail">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+            atque labore ea aliquid eveniet maxime odit libero molestiae
+            cupiditate in! Odit laborum aperiam quia perferendis repudiandae,
+            harum molestiae eligendi incidunt.
+          </p>
+        </div>
+      </div>
+      <div class="service4">
+        <div class="icon">
+          <img src="image/img5.png" alt="icon" height="50px" width="50px" />
+        </div>
+        <div class="service-title">
+          <h1>Web Hosting</h1>
+        </div>
+        <div class="service-detail">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            eveniet voluptatem nesciunt numquam aliquam. Quam laborum autem
+            iusto cum vitae minus sint obcaecati quas quae quos reiciendis,
+            maiores suscipit. Tempora!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h3 style="text-align: center; margin: 1rem auto">Contact Form</h3>
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div id="social">
+      <h1 style="text-align: center">Social Medias</h1>
+      <div class="social-media-container">
+        <a href="https://www.facebook.com/aashish.cd">
+          <img src="./icons/facebook.png" alt="facebook icon" />
+        </a>
+        <a href="https://www.facebook.com/aashish.cd">
+          <img src="./icons/instagram.png" alt="instagram icon" />
+        </a>
+        <a href="https://www.facebook.com/aashish.cd">
+          <img src="./icons/twitter.png" alt="twitter con" />
+        </a>
+        <a href="https://www.facebook.com/aashish.cd">
+          <img src="./icons/github.png" alt="github icon" />
+        </a>
+      </div>
+    </div>
+    <div style="height: 90vh"></div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

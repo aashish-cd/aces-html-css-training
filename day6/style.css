@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* nav {
+  display: flex;
+  padding: 0.9rem 4rem;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aquamarine;
+} */
+
+.rightsection {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 20px;
+}
+
+/* intro styling */
+.intro-holder {
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 6rem;
+  align-items: center;
+}
+.intro-left {
+  font-size: 1.8rem;
+}
+
+.image-holder {
+  height: 27rem;
+  width: auto;
+}
+.image-holder > img {
+  height: 100%;
+}
+
+/* service styling */
+.service-holder {
+  height: 100vh;
+  display: flex;
+  gap: 40px;
+  padding: 1rem;
+  /* flex-wrap: wrap; */
+}
+.service-holder > div {
+  padding: 1rem;
+  height: 18rem;
+  width: 23rem;
+  border-radius: 10px;
+  background-color: rgb(53, 129, 88);
+  margin: 0.4rem 0;
+  display: flex;
+  flex-direction: column;
+  color: rgb(234, 233, 233);
+  justify-content: space-between;
+  text-align: center;
+}
+.service-detail {
+  text-align: start;
+}
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.icon > img {
+  border-radius: 50%;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+  font-size: 5rem;
+}
+
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  margin: auto;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+}
+.textlong::first-line {
+  color: yellow;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.social-media-container img {
+  width: 80px;
+  height: 80px;
+  transition: 1s all;
+}
+.social-media-container img:hover {
+  scale: 1.5;
+  transform: rotate(30deg);
+}
